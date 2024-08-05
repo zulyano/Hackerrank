@@ -1,9 +1,13 @@
 package main
 
 import (
-	"fmt"
+	"hackerrank/plusminus"
 )
 
 func main() {
-	fmt.Println("test new")
+
+	// expected output: 0.4, 0.4, 0.2
+	arr := []int32{1, 1, 0, -1, -1}
+	plusminus.PlusMinus(arr)
+
 }
